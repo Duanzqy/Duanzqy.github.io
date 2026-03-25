@@ -58,19 +58,19 @@ This section will be one of the main entry points of the site and should stay vi
 
 This section will present selected academic work in a more formal and compact format.
 
-### Publication Placeholder 01
+### ExpPortrait: Expressive Portrait Generation via Personalized Representation
 
-- Authors: to be added
-- Venue: to be added
-- Year: to be added
-- Links: Paper / Code / Bib
+- Authors: Junyi Wang, Yudong Guo, Boyang Guo, Shengming Yang, Juyong Zhang
+- Venue: CVPR 2026
+- Year: 2026
+- Links: Project Page https://ustc3dv.github.io/ExpPortrait/ / Paper https://arxiv.org/abs/2602.19900
 
-### Publication Placeholder 02
+### Expressive Talking Human from Single-Image with Imperfect Priors
 
-- Authors: to be added
-- Venue: to be added
-- Year: to be added
-- Links: Paper / Code / Bib
+- Authors: Jun Xiang, Yudong Guo, Leipeng Hu, Boyang Guo, Yancheng Yuan, Juyong Zhang
+- Venue: ICCV 2025
+- Year: 2025
+- Links: Project Page https://ustc3dv.github.io/OneShotOneTalk/ / Paper https://arxiv.org/abs/2412.01106
 
 ---
 

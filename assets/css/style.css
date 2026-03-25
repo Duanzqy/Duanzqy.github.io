@@ -261,6 +261,12 @@ img {
   background: linear-gradient(180deg, #ecdfcf 0%, #d8c8b2 100%);
 }
 
+.avatar-frame img {
+  width: 100%;
+  aspect-ratio: 5 / 6;
+  object-fit: cover;
+}
+
 .avatar-note {
   position: relative;
   display: grid;

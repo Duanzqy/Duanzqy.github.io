@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: How to Use Claude Code with Domestic Models
 description: A Chinese draft on using Claude Code on Windows through WSL and connecting it to MiniMax API.
 ---

@@ -1,147 +1,127 @@
 ---
-layout: default
+layout: post
 title: Recommended Reading
-description: A structured template for recording recommended papers, articles, books, and tools.
+description: Papers, blogs, tools, and resources worth revisiting — organized by topic.
 ---
 
 # Recommended Reading
 
-这篇文章先作为推荐阅读的统一模板，后续我会持续往里面补充值得反复回看的论文、博客、书籍和工具资源。
+平时看到很多有价值的内容，临时收藏容易遗忘它为什么值得读，也不容易在需要时找回来。这里整理的每一条推荐，都会写上推荐理由和个人笔记——不只是存一个链接。
 
-## 我为什么想单独整理推荐阅读
+积累到一定程度后，某些方向会单独拆成专题文章，比如 Digital Human 推荐阅读、3D Vision 推荐阅读、值得反复看的技术博客等。
 
-平时看到很多有价值的内容，如果只是临时收藏，很容易过一段时间就忘记它为什么值得读，也不容易在需要时快速找回。把推荐阅读整理成固定格式，有几个直接的好处：
+<p class="appendix-hint">记录格式参见文末 <a href="#format-guide">附录</a>。</p>
 
-- 可以快速回忆每条内容的核心价值
-- 可以区分不同类型的资源，比如论文、博客、书籍和工具
-- 可以保留自己的简短理解，而不是只存一个链接
-- 后续如果某个方向积累得足够多，也可以单独拆成专题文章
+---
 
-## 我准备采用的记录格式
+## Claude Code
 
-以后每一条推荐都尽量按下面这个模板来写。
+### 代码规范
 
-### 1. 标题
+<div class="reading-card">
+  <div class="reading-card-header">
+    <span class="reading-badge reading-badge--guide">Guide</span>
+    <span class="reading-tags">Engineering · Research · Code Quality</span>
+  </div>
+  <h4><a href="https://goodresearch.dev/" target="_blank" rel="noreferrer">The Good Research Code Handbook</a></h4>
+  <p class="reading-reason">面向研究者的代码规范手册，强调可读性、可复现性和项目结构。不是通用工程规范的翻版，而是专门针对学术项目的现实约束来写的，适合养成研究代码的良好习惯。</p>
+</div>
 
-直接写资源标题。如果有官方中文名或常用简称，也可以一起写上。
+<div class="reading-card">
+  <div class="reading-card-header">
+    <span class="reading-badge reading-badge--guide">Guide</span>
+    <span class="reading-tags">Engineering · Code Quality</span>
+  </div>
+  <h4><a href="https://claude.ai/public/artifacts/5fd3148e-0e30-401a-bf4a-01078736e629" target="_blank" rel="noreferrer">30 Code Quality Best Practices</a></h4>
+  <p class="reading-reason">30 条代码质量实践的精炼清单，条目短且可操作，适合直接当作 code review 或日常写代码时的自查 checklist。</p>
+</div>
 
-示例：
+### 如何使用 Claude
 
-```text
-Attention Is All You Need
-```
+<div class="reading-card">
+  <div class="reading-card-header">
+    <span class="reading-badge reading-badge--repo">Repo</span>
+    <span class="reading-tags">Claude Code · Workflow · Prompt</span>
+  </div>
+  <h4><a href="https://github.com/shanraisshan/claude-code-best-practice" target="_blank" rel="noreferrer">claude-code-best-practice</a></h4>
+  <p class="reading-reason">社区整理的 Claude Code 使用最佳实践，涵盖常见的 prompt 模式、工作流配置和避坑经验。适合刚开始系统使用 Claude Code 的阶段通读一遍。</p>
+</div>
 
-### 2. 类型
+### Skills 与工具
 
-说明这条推荐属于哪一类，方便后续筛选和整理。
+<div class="reading-card">
+  <div class="reading-card-header">
+    <span class="reading-badge reading-badge--tool">Tool</span>
+    <span class="reading-tags">Claude Code · Skills</span>
+  </div>
+  <h4><a href="https://github.com/lijigang/ljg-skills" target="_blank" rel="noreferrer">ljg-skills</a></h4>
+  <p class="reading-reason">一套结构清晰的 Claude Code skill 集合，包含多个实用场景的 skill 定义方式。适合学习如何为自己的工作流定制 skill。</p>
+</div>
 
-可选类型例如：
+<div class="reading-card">
+  <div class="reading-card-header">
+    <span class="reading-badge reading-badge--framework">Framework</span>
+    <span class="reading-tags">Claude Code · Agentic · Methodology</span>
+  </div>
+  <h4><a href="https://github.com/obra/superpowers" target="_blank" rel="noreferrer">Superpowers — Agentic Skills Framework</a></h4>
+  <p class="reading-reason">提出了一套 agentic skills 框架和软件开发方法论，把 AI 协作工作流结构化。对理解 Claude Code 的深度用法和整体心智模型有帮助。</p>
+</div>
 
-- Paper
-- Blog Post
-- Book
-- Tutorial
-- Tool
-- Course
+<div class="reading-card">
+  <div class="reading-card-header">
+    <span class="reading-badge reading-badge--tool">Tool</span>
+    <span class="reading-tags">Claude Code · Research · Skills</span>
+  </div>
+  <h4><a href="https://github.com/mvanhorn/last30days-skill" target="_blank" rel="noreferrer">last30days-skill</a></h4>
+  <p class="reading-reason">跨多平台（Reddit、X、YouTube、HN、Polymarket 等）做话题研究的 Claude skill，输出带来源引用的合成摘要。适合快速了解某个方向最近 30 天的动态。</p>
+</div>
 
-### 3. 链接
+<div class="reading-card">
+  <div class="reading-card-header">
+    <span class="reading-badge reading-badge--tool">Tool</span>
+    <span class="reading-tags">Claude Code · Skills · AI Builders</span>
+  </div>
+  <h4><a href="https://github.com/zarazhangrui/follow-builders/blob/main/README.zh-CN.md" target="_blank" rel="noreferrer">follow-builders</a></h4>
+  <p class="reading-reason">追踪顶级 AI builder 在 X 和 YouTube 上内容的 Claude skill，自动整理成可读摘要。比手动刷信息流效率高很多。</p>
+</div>
 
-保留原始链接，优先放官方页面、论文主页、arXiv、项目页或作者原文。
+---
 
-示例：
+## Model Learning
 
-```text
-https://arxiv.org/abs/1706.03762
-```
+<div class="reading-card">
+  <div class="reading-card-header">
+    <span class="reading-badge reading-badge--blog">Blog</span>
+    <span class="reading-tags">Transformer · Foundation Model · Visualization</span>
+  </div>
+  <h4><a href="https://www.vizuaranewsletter.com/p/the-transformers" target="_blank" rel="noreferrer">The Transformers — Vizuara Newsletter</a></h4>
+  <p class="reading-reason">对 Transformer 架构的直观视觉化解读，图文并茂，注重建立几何和流程上的直觉。适合在深读原论文之前先建立一个整体印象。</p>
+</div>
 
-### 4. 推荐理由
+<div class="reading-card">
+  <div class="reading-card-header">
+    <span class="reading-badge reading-badge--tutorial">Tutorial</span>
+    <span class="reading-tags">Diffusion · Generative Model · Math</span>
+  </div>
+  <h4><a href="https://the-principles-of-diffusion-models.github.io/#/blog" target="_blank" rel="noreferrer">The Principles of Diffusion Models</a></h4>
+  <p class="reading-reason">系统梳理扩散模型数学原理的网页教程，从 score matching 到 DDPM 都有覆盖，兼顾直觉和推导。适合想系统补扩散模型基础的阶段。</p>
+</div>
 
-用一到三句话说明为什么值得读。重点不是复述内容，而是说明它的价值。
+---
 
-可以从这些角度写：
+<div id="format-guide" class="appendix-block">
+  <details>
+    <summary>附录：记录格式参考</summary>
+    <div class="appendix-content">
+      <p>以后新增的每一条推荐尽量按下面这个格式来写：</p>
+      <pre><code>### 资源标题
 
-- 它解决了什么问题
-- 它讲清楚了什么概念
-- 它为什么适合作为入门材料
-- 它在哪些方面讲得比别的资料更好
-
-### 5. 个人笔记
-
-这里记录你自己的理解、疑问、启发或使用场景。哪怕只写两三句话，也比只有链接更有价值。
-
-可以写：
-
-- 我最认同的观点
-- 我暂时没看懂的部分
-- 它和我正在做的研究有什么联系
-- 以后想进一步展开的方向
-
-### 6. 标签
-
-给每条内容附上几个标签，便于后续按主题归类。
-
-例如：
-
-- Transformer
-- Diffusion
-- Digital Human
-- 3D Vision
-- Graphics
-- Engineering
-
-### 7. 阅读状态
-
-如果希望更方便管理，可以给每条内容增加一个简单状态。
-
-例如：
-
-- To Read
-- Reading
-- Finished
-- Revisit
-
-## 推荐条目的统一模板
-
-后续我会尽量用下面这个格式补充每一条内容：
-
-```md
-### 资源标题
-
-- Type: Paper / Blog Post / Book / Tutorial / Tool / Course
+- Type: Paper / Blog / Book / Tutorial / Tool / Framework / Repo / Course
 - Link: https://...
-- Why it is worth reading: 用 1~3 句话说明推荐理由
-- Personal note: 记录自己的理解、疑问或启发
-- Tags: tag1, tag2, tag3
-- Status: To Read / Reading / Finished / Revisit
-```
-
-## 后续怎么继续扩展
-
-等这篇内容慢慢积累起来之后，我可能会再按主题拆成几篇独立文章，比如：
-
-- Digital Human 推荐阅读
-- 3D Vision 推荐阅读
-- 值得反复阅读的技术博客
-- 实用工具与工程资源
-
-## 现在的状态
-
-这篇文章目前先保留为模板页，后续再逐条补充真实内容。
-
-## claude code
-#### 代码规范
--  [The Good Research Code Handbook — Good research code](https://goodresearch.dev/)
-- [30 Code Quality Best Practices Guide | Claude](https://claude.ai/public/artifacts/5fd3148e-0e30-401a-bf4a-01078736e629)
-
-#### how to use claude
-- - [shanraisshan/claude-code-best-practice: practice made claude perfect](https://github.com/shanraisshan/claude-code-best-practice?tab=readme-ov-file)
-
-#### skills
-- [lijigang/ljg-skills](https://github.com/lijigang/ljg-skills)
-- [OBRA/超级大国：一种有效的智能技能框架和软件开发方法论。 --- obra/superpowers: An agentic skills framework & software development methodology that works.](https://github.com/obra/superpowers)
-- [mvanhorn/last30days-skill: AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary](https://github.com/mvanhorn/last30days-skill)
-- [follow-builders/README.zh-CN.md at main · zarazhangrui/follow-builders](https://github.com/zarazhangrui/follow-builders)
-
-## model learning
-- [Transformer]([The Transformers - by Mayank Pratap Singh](https://www.vizuaranewsletter.com/p/the-transformers))
-- [the-principles-of-diffusion-models.github.io](https://the-principles-of-diffusion-models.github.io/#/blog)
+- Why: 用 1～3 句话说明推荐理由
+- Note: 自己的理解、疑问或启发
+- Tags: tag1, tag2, tag3</code></pre>
+      <p>类型徽章与 <code>Type</code> 字段对应，标签用于后续按主题归类。不需要记录阅读状态。</p>
+    </div>
+  </details>
+</div>

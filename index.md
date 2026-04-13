@@ -1,5 +1,6 @@
 ---
 title: Boyang Guo
+published: false
 ---
 
 # Boyang Guo

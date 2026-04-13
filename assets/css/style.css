@@ -358,6 +358,14 @@ img {
   font-size: clamp(2rem, 4vw, 3.3rem);
 }
 
+.section-heading h2 a {
+  text-decoration: none;
+}
+
+.section-heading h2 a:hover {
+  color: var(--accent-deep);
+}
+
 .compact-heading h2 {
   font-size: clamp(1.6rem, 2vw, 2.3rem);
 }

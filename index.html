@@ -18,9 +18,11 @@
   </head>
   <body>
     <div class="page-shell">
+      <!-- Site header: brand name and top-level navigation -->
       <header class="site-header">
         <a class="brand" href="#top">Boyang Guo</a>
         <nav class="top-nav" aria-label="Primary">
+          <a href="blog.html">Blog</a>
           <a href="#writing">Writing</a>
           <a href="#publications">Publications</a>
           <a href="#projects">Projects</a>
@@ -29,6 +31,7 @@
       </header>
 
       <main id="top">
+        <!-- Hero section: landing summary, main CTA buttons, and avatar image -->
         <section class="hero section-frame">
           <div class="hero-copy">
             <p class="eyebrow">Academic Homepage + Research Notes</p>
@@ -40,8 +43,8 @@
               <a class="button button-secondary" href="#publications">Selected Papers</a>
             </div>
             <ul class="hero-links" aria-label="Quick links">
+              <li><a href="blog.html">Blog Archive</a></li>
               <li><a href="#projects">Projects</a></li>
-              <li><a href="#reading">Reading List</a></li>
               <li><a href="mailto:byguo@mail.ustc.edu.cn">Email</a></li>
             </ul>
           </div>
@@ -60,6 +63,7 @@
           </div>
         </section>
 
+        <!-- Intro section: biography and a compact snapshot of current work -->
         <section class="intro-grid">
           <section class="section-frame about-card" id="about">
             <p class="section-kicker">About</p>
@@ -85,7 +89,7 @@ My research interests lie at the intersection of Computer Vision and Graphics, w
               </div>
               <div>
                 <dt>Writing</dt>
-                <dd>3 featured slots</dd>
+                <dd>2 featured posts</dd>
               </div>
               <div>
                 <dt>Projects</dt>
@@ -95,32 +99,34 @@ My research interests lie at the intersection of Computer Vision and Graphics, w
           </section>
         </section>
 
+        <!-- Writing highlights: keep a few featured items here and use the title as the archive link -->
         <section class="section-block" id="writing">
           <div class="section-heading">
-            <h2>Writing</h2>
+            <h2><a href="blog.html">Writing</a></h2>
           </div>
           <div class="card-grid writing-grid">
             <article class="feature-card writing-card featured">
-              <p class="card-meta">Blog Post - Placeholder</p>
-              <h3>Writing Placeholder 01</h3>
-              <p>Future blog post.</p>
-              <a href="#">Draft slot</a>
+              <p class="card-meta">Reading Note</p>
+              <h3>Recommended Reading</h3>
+              <p>Collect papers, blog posts, books, and resource links worth revisiting in one place.</p>
+              <a href="posts/2026-03-29-recommended-reading.html">Read more</a>
             </article>
             <article class="feature-card writing-card">
-              <p class="card-meta">Recommended Reading - Placeholder</p>
-              <h3>Writing Placeholder 02</h3>
-              <p>Future reading note.</p>
-              <a href="#">Draft slot</a>
+              <p class="card-meta">Technical Note</p>
+              <h3>How to Use Claude Code with Domestic Models</h3>
+              <p>A starter outline for configuring Claude Code with domestic model providers or compatible gateways.</p>
+              <a href="posts/2026-03-29-claude-code-domestic-model.html">Read more</a>
             </article>
             <article class="feature-card writing-card">
-              <p class="card-meta">Research Note - Placeholder</p>
-              <h3>Writing Placeholder 03</h3>
-              <p>Future research note.</p>
-              <a href="#">Draft slot</a>
+              <p class="card-meta">More Posts</p>
+              <h3>Browse the Blog Archive</h3>
+              <p>Use the Writing title above to jump to the full list when more posts are added.</p>
+              <a href="blog.html">Open archive</a>
             </article>
           </div>
         </section>
 
+        <!-- Publications section: selected papers with venue, authors, and external links -->
         <section class="section-block" id="publications">
           <div class="section-heading compact-heading">
               <h2>Publications</h2>
@@ -149,47 +155,27 @@ My research interests lie at the intersection of Computer Vision and Graphics, w
           </div>
         </section>
 
-        <section class="split-section">
-          <section class="section-block" id="projects">
-            <div class="section-heading compact-heading">
-              <h2>Projects</h2>
-            </div>
-            <div class="card-grid two-up">
-              <article class="feature-card project-card">
-                <p class="card-meta">Coming Soon</p>
-                <h3>Project Placeholder 01</h3>
-                <p>Future open-source project.</p>
-              </article>
-              <article class="feature-card project-card">
-                <p class="card-meta">Coming Soon</p>
-                <h3>Project Placeholder 02</h3>
-                <p>Future prototype.</p>
-              </article>
-            </div>
-          </section>
-
-          <section class="section-block" id="reading">
-            <div class="section-heading compact-heading">
-              <h2>Reading / Recommendations</h2>
-            </div>
-            <div class="recommendation-stack">
-              <article class="section-frame recommendation-item">
-                <h3>Recommendation Placeholder 01</h3>
-                <p>Recommended paper or article.</p>
-              </article>
-              <article class="section-frame recommendation-item">
-                <h3>Recommendation Placeholder 02</h3>
-                <p>Topic guide or reading path.</p>
-              </article>
-              <article class="section-frame recommendation-item">
-                <h3>Recommendation Placeholder 03</h3>
-                <p>Useful resource collection.</p>
-              </article>
-            </div>
-          </section>
+        <!-- Projects section: reserved for future open-source work -->
+        <section class="section-block" id="projects">
+          <div class="section-heading compact-heading">
+            <h2>Projects</h2>
+          </div>
+          <div class="card-grid two-up">
+            <article class="feature-card project-card">
+              <p class="card-meta">Coming Soon</p>
+              <h3>Project Placeholder 01</h3>
+              <p>Future open-source project.</p>
+            </article>
+            <article class="feature-card project-card">
+              <p class="card-meta">Coming Soon</p>
+              <h3>Project Placeholder 02</h3>
+              <p>Future prototype.</p>
+            </article>
+          </div>
         </section>
       </main>
 
+      <!-- Footer section: contact methods and external profile links -->
       <footer class="site-footer section-frame" id="contact">
         <div>
           <p class="section-kicker">Contact</p>

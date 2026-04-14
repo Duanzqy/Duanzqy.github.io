@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Recommended Reading
-description: Papers, blogs, tools, and resources worth revisiting — organized by topic.
+date: 2026-03-29
+description: A place to collect papers, blog posts, books, and resource links worth revisiting.
 ---
 
 # Recommended Reading

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Use Claude Code with Domestic Models
+date: 2026-03-29
 description: A Chinese draft on using Claude Code on Windows through WSL and connecting it to MiniMax API.
 ---
 

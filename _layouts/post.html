@@ -4,6 +4,10 @@ layout: default
 <div class="post-wrap">
   <a class="back-btn" href="{{ '/blog.html' | relative_url }}">Blog</a>
 
+  <div class="post-meta" style="margin: 8px 0 16px; color: #6b7280; font-size: 0.95rem;">
+    发布于 {{ page.date | date: "%Y-%m-%d" }}
+  </div>
+
   <div class="prose-wrap">
     {{ content }}
   </div>

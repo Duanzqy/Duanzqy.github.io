@@ -11,6 +11,11 @@ This page collects blog posts and notes.
 ## 2026
 
 <div class="post-card-wrap">
+  <a class="post-card" href="talks/2026-04-30-ai-agent-workflow/">
+    <div class="post-card-meta"><span>Slides</span><span class="post-date">2026-04-30</span></div>
+    <h3>AI Agent 工具链与个人工作流入门</h3>
+    <p>一份关于 AI Agent 工具链、项目上下文、工作流和实践演示的网页 PPT。</p>
+  </a>
   <a class="post-card" href="posts/2026-04-13-how-i-build-my-personal-wiki.html">
     <div class="post-card-meta"><span>Technical Note</span><span class="post-date">2026-04-13</span></div>
     <h3>我如何构建并维护个人 Wiki</h3>

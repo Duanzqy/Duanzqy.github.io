@@ -61,6 +61,15 @@ description: A place to collect papers, blog posts, books, and resource links wo
 
 <div class="reading-card">
   <div class="reading-card-header">
+    <span class="reading-badge reading-badge--tool">Tool</span>
+    <span class="reading-tags">Claude Code · Codex · Skills</span>
+  </div>
+  <h4><a href="https://github.com/mattpocock/skills" target="_blank" rel="noreferrer">mattpocock/skills</a></h4>
+  <p class="reading-reason">一套强调真实工程实践的 agent skill 集合，主张 skill 要足够小、可组合、可按项目语境调整，而不是把流程封死。适合已经开始系统使用 Claude Code 或 Codex、想进一步优化协作方式和反馈回路的人。</p>
+</div>
+
+<div class="reading-card">
+  <div class="reading-card-header">
     <span class="reading-badge reading-badge--framework">Framework</span>
     <span class="reading-tags">Claude Code · Agentic · Methodology</span>
   </div>
@@ -84,6 +93,15 @@ description: A place to collect papers, blog posts, books, and resource links wo
   </div>
   <h4><a href="https://github.com/zarazhangrui/follow-builders/blob/main/README.zh-CN.md" target="_blank" rel="noreferrer">follow-builders</a></h4>
   <p class="reading-reason">追踪顶级 AI builder 在 X 和 YouTube 上内容的 Claude skill，自动整理成可读摘要。比手动刷信息流效率高很多。</p>
+</div>
+
+<div class="reading-card">
+  <div class="reading-card-header">
+    <span class="reading-badge reading-badge--book">Book</span>
+    <span class="reading-tags">Claude Code · Codex · Harness Engineering</span>
+  </div>
+  <h4><a href="https://harness-books.agentway.dev/index.html" target="_blank" rel="noreferrer">Harness Engineering Books</a></h4>
+  <p class="reading-reason">围绕 Claude Code 和 Codex 的运行时设计、控制面、恢复路径与验证分工展开，既讲整体框架，也比较两套 harness 的差异。适合在“会用工具”之后，进一步建立 agent coding 工作流的系统化理解。</p>
 </div>
 
 ---

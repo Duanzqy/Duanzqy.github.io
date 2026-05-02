@@ -22,7 +22,7 @@ This page collects blog posts and notes.
     <p>从动机到落地流程，记录我如何用大模型构建并持续维护个人 Wiki。</p>
   </a>
   <a class="post-card" href="posts/2026-03-29-recommended-reading.html">
-    <div class="post-card-meta"><span>Reading Note</span><span class="post-date">2026-03-29</span></div>
+    <div class="post-card-meta"><span>Reading Note</span><span class="post-date">2026-05-02</span></div>
     <h3>Recommended Reading</h3>
     <p>A place to collect papers, blog posts, books, and resource links worth revisiting.</p>
   </a>

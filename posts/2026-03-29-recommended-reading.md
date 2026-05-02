@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Recommended Reading
-date: 2026-03-29
+date: 2026-05-02
 description: A place to collect papers, blog posts, books, and resource links worth revisiting.
 ---
 
@@ -93,6 +93,15 @@ description: A place to collect papers, blog posts, books, and resource links wo
   </div>
   <h4><a href="https://github.com/zarazhangrui/follow-builders/blob/main/README.zh-CN.md" target="_blank" rel="noreferrer">follow-builders</a></h4>
   <p class="reading-reason">追踪顶级 AI builder 在 X 和 YouTube 上内容的 Claude skill，自动整理成可读摘要。比手动刷信息流效率高很多。</p>
+</div>
+
+<div class="reading-card">
+  <div class="reading-card-header">
+    <span class="reading-badge reading-badge--repo">Repo</span>
+    <span class="reading-tags">Claude Code · Skills · Examples</span>
+  </div>
+  <h4><a href="https://github.com/forrestchang/andrej-karpathy-skills/tree/main" target="_blank" rel="noreferrer">forrestchang/andrej-karpathy-skills</a></h4>
+  <p class="reading-reason">整理 Andrej Karpathy 相关 skill 示例和实现思路的仓库，适合参考 skill 的组织方式、命名习惯和实际落地结构，快速补足对 Claude Code skills 的工程化理解。</p>
 </div>
 
 <div class="reading-card">
